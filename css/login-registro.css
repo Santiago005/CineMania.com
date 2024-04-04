@@ -36,10 +36,16 @@ header {
 
 .logo img {
     width: 150px;
+    padding: 0;
 }
 
-.logo h1 {
-    color: #e7dddd;
+.logo a {
+    color: #cac4c4;
+    font-size: 40px;
+    align-items: center;
+    cursor: pointer;
+    font-weight: 600;
+    text-decoration: none;
 }
 
 

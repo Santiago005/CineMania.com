@@ -35,10 +35,16 @@ header {
 
 .logo img {
     width: 150px;
+    padding: 0;
 }
 
-.logo h1 {
-    color: #e7dddd;
+.logo a {
+    color: #cac4c4;
+    font-size: 40px;
+    align-items: center;
+    cursor: pointer;
+    font-weight: 600;
+    text-decoration: none;
 }
 
 .buscador input[type="search"] {
@@ -58,7 +64,7 @@ nav {
     padding: 20px;
     display: flex;
     position: fixed;
-    top: 18%;
+    top: 20%;
     left: 0;
     width: 100%;
     justify-content: center;
